@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tc_repository.LE_02">
+        <methods>
+          <include name="loginOperation"/>
+          <include name="logoutOperation"/>
+          <include name="le02Tc"/>
+          <include name="closeDbConnection"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- tc_repository.LE_02 -->
+      <class name="tc_repository.ORG_02">
+        <methods>
+          <include name="loginOperation"/>
+          <include name="logoutOperation"/>
+          <include name="org01Tc"/>
+          <include name="closeDbConnection"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- tc_repository.ORG_02 -->
+      <class name="tc_repository.ORG_01">
+        <methods>
+          <include name="loginOperation"/>
+          <include name="logoutOperation"/>
+          <include name="closeDbConnection"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="org01Tc"/>
+        </methods>
+      </class> <!-- tc_repository.ORG_01 -->
+      <class name="tc_repository.ORG_04">
+        <methods>
+          <include name="loginOperation"/>
+          <include name="logoutOperation"/>
+          <include name="closeDbConnection"/>
+          <include name="org01Tc"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- tc_repository.ORG_04 -->
+      <class name="tc_repository.ORG_03">
+        <methods>
+          <include name="loginOperation"/>
+          <include name="logoutOperation"/>
+          <include name="closeDbConnection"/>
+          <include name="org01Tc"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- tc_repository.ORG_03 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
